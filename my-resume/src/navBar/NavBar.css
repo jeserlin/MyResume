@@ -1,0 +1,10 @@
+.logo {
+	width: 30px;
+	height: 30px;
+}
+.logo-text {
+	padding-top: .2em;
+}
+.bg-dustyPink {
+  background-color: #f7e6e3 !important;
+}
