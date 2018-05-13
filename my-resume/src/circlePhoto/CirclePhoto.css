@@ -1,0 +1,10 @@
+.img-thumbnail-dustyPink {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 5px solid #f7e6e3;
+  max-width: 100%;
+  height: auto;
+}
+.img {
+	width: 150px;
+}

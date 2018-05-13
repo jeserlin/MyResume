@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
+// My Components
 import NavBar from './navBar/NavBar';
+import CirclePhoto from './circlePhoto/CirclePhoto';
+import Footer from './footer/Footer';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <NavBar />
-      </div>
+    	<div className="app">
+    		<NavBar />
+			<center>
+				<CirclePhoto />
+			</center>
+			<Footer />
+    	</div>
     );
   }
 }
