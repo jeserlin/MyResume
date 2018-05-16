@@ -4,12 +4,13 @@ import './App.css';
 // My Components
 import Header from './header/Header';
 import Skill from './skill/Skill';
+import Experience from './experience/Experience';
 import Footer from './footer/Footer';
 
 // Icons
 import FaGithub from 'react-icons/lib/fa/github';
 import FaEnvelope from 'react-icons/lib/fa/envelope-o';
-import FaLight from 'react-icons/lib/fa/lightbulb-o';
+
 
 // Skills
 const skills = [
@@ -19,6 +20,13 @@ const skills = [
     {name: 'Database', skill:['SQL Server', 'MySQL', 'PostgreSQL', 'infomix']},
     {name: 'Framework/Others', skill:['Spring MVC', 'Hibernate', 'React', 'github / git', 'SVN', 'webSocket', 'Regular expression', 'i18n']},
     {name: 'Language', skill:['English - TOEIC 850', 'French - DELF B2']}
+];
+
+// Experience
+const experience = [
+    {type:'work', place: '資拓宏宇國際股份有限公司', startTime:'2015年7月', endTime:'現在', description:'主要負責智慧交通控制系統及戶役政系統'},
+    {type:'school', place: '系統開發實務專班', startTime:'2014年9月', endTime:'2015年6月', description:'資拓宏宇國際股份有限公司 與 輔仁大學數學系 合辦系統開發實務專班'},
+    {type:'school', place: '輔仁大學', startTime:'2011年9月', endTime:'2015年6月', description:'法國語文學系'}
 ];
 
 class App extends Component {
@@ -38,12 +46,8 @@ class App extends Component {
     				<a className="text-secondary em1" href="https://github.com/jeserlin"> github.com/jeserlin</a>
     			</div>
     		</div>
-    		<div className="container pt3">
-    			<div className="topic1 em2 pb">
-    				<FaLight className="em2"/> 技能
-    			</div>
-    			<Skill skills={skills} />
-    		</div>
+    		<Skill skills={skills} />
+            <Experience experience={experience} />
 			<Footer />
     	</div>
     );

@@ -1,5 +1,4 @@
- .panel-pink {
- 	min-height: 250px;
+.panel-pink {
 	border-width: 5px;
 	border-color: #f7e6e3;
 }
@@ -7,4 +6,9 @@
   background-color: rgba(0,0,0,.03);
   border-width: 5px;
   border-color: #f7e6e3;
+}
+@media (min-width: 768px) {
+	.panel-pink {
+		min-height: 250px;
+	}
 }

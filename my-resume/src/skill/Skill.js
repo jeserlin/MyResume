@@ -2,10 +2,13 @@ import React, { Component } from 'react';
 import { Panel } from 'react-bootstrap';
 import './Skill.css';
 
+// Icons
+import FaLight from 'react-icons/lib/fa/lightbulb-o';
+
 class Skill extends Component {
 	render() {
 
-		function SkillDetails(props) {
+		const SkillDetails = (props) => {
 			const content = props.data.skill.map((skill, index) => 
 				<li key={index}>{skill}</li>
 			);
@@ -26,7 +29,10 @@ class Skill extends Component {
 		);
 
 		return (
-			<div className="container">
+			<div className="container pt3">
+				<div className="topic1 em2 pb">
+    				<FaLight className="em2"/> 技能
+    			</div>
 				{skillPabel}
 			</div>
 		);
