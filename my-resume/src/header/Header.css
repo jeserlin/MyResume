@@ -1,0 +1,17 @@
+header {
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.bg-dustyPink {
+  background-color: #f7e6e3 !important;
+}
+
+.border-bottom-5-grey {
+  border-bottom: 5px solid #e5e5e5 !important;
+}
+
+.down {
+	position: relative;
+	top: 75px;
+}

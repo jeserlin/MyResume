@@ -1,5 +1,54 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+}
+.topic1 {
+  font-weight: bold;
+  color: #fd6766;
+}
+/*text weight*/
+.text-bold {
+	font-weight: bold;
+}
+/*text color*/
+.text-white {
+	color: #ffffff !important;
+}
+.text-secondary {
+	color: #6c757d !important
+}
+/*text size*/
+.em1 {
+	font-size: 1em;
+}
+.em2 {
+	font-size: 1.25em;
+}
+.em3 {
+	font-size: 1.5em;
+}
+/*padding*/
+.pt {
+	padding-top: .5em;
+}
+.pt1 {
+	padding-top: 1em;
+}
+.pt2 {
+	padding-top: 2em;
+}
+.pt3 {
+	padding-top: 3em;
+}
+.pb {
+	padding-bottom: .5em;
+}
+.pb1 {
+	padding-bottom: 1em;
+}
+.pb2 {
+	padding-bottom: 2em;
+}
+.pb3 {
+	padding-bottom: 3em;
 }

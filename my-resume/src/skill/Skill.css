@@ -1,0 +1,10 @@
+ .panel-pink {
+ 	min-height: 250px;
+	border-width: 5px;
+	border-color: #f7e6e3;
+}
+.panel-pink > .panel-heading {
+  background-color: rgba(0,0,0,.03);
+  border-width: 5px;
+  border-color: #f7e6e3;
+}

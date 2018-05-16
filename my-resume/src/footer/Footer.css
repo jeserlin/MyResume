@@ -1,28 +1,30 @@
-.bg-darkGray {
-  background-color: #C0C0C0 !important;
-}
-.border-top-5-dustyPink {
-  border-top: 5px solid #f7e6e3 !important;
-}
-.circlePhoto {
-	position: relative;
-	top: -60px;
-}
 footer {
-	margin-top: 70px;
+	margin-top: 100px;
 	color: #ffffff;
 	text-align: center;
-	font-size: 1.2em;
 }
-a, a:hover {
-	color: #ffffff;
+
+.bg-darkGray {
+	background-color: #C0C0C0 !important;
 }
+
+.border-top-5-dustyPink {
+	border-top: 5px solid #f7e6e3 !important;
+}
+
+.top {
+	position: relative;
+	top: -75px;
+}
+
 dl {
 	margin-left: 0px; margin-right:0px;
 }
+
 dt {
 	text-align: right;
 }
+
 dd {
 	text-align: left;
 }
