@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Timeline, TimelineEvent } from 'react-event-timeline'
+import { Timeline, TimelineEvent } from 'react-event-timeline';
 
 // Icons
 import FaBriefcase from 'react-icons/lib/fa/briefcase';
@@ -38,10 +38,9 @@ class Experience extends Component {
 			<div className="container pt3">
 				<div className="topic1 em2 pb">
     				<FaBriefcase className="em2"/> 學歷／工作經驗
-    				<Timeline>
-    					{experience}
-    				</Timeline>
+    				<Timeline>{experience}</Timeline>
     			</div>
+    			
 			</div>
 		);
 	}
