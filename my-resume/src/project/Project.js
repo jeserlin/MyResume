@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image } from 'react-bootstrap';
+import { Image, Badge } from 'react-bootstrap';
 import './Project.css';
 
 // Icons
@@ -33,7 +33,7 @@ class Project extends Component {
 				    </p>
 				     <p className="card-text">
 				      	<FaGithub className="text-secondary em2"/>
-				      	<a className="text-secondary" href="data.github">
+				      	<a className="text-secondary" href={data.github}>
 							<span> see in Github</span>
 				      	</a>
 					</p>
@@ -52,7 +52,7 @@ class Project extends Component {
 
 		const WorkContent = (props) => {
 			const data = props.data;
-			const funcList = props.data.description.split(",").map((element, index) => 
+			const funcList = data.description.split(",").map((element, index) => 
 				<li key={index}>{element}</li>
 			);
 			return (
@@ -67,12 +67,27 @@ class Project extends Component {
 			);
 		}
 
+		const Footer = (props) => {
+			const data = props.data;
+			const badges = data.skills.map((element, index) =>
+				<Badge key={index} className="margin">#{element}</Badge>
+			);
+			return (
+				<div className="card-footer border-dustyPink">
+					<small className="text-secondary">
+						{badges}
+					</small>
+				</div>
+			);
+		}
+
 		const projects = this.props.projects.map((project, index) => {
 			if(project.type === "site") {
 				return	(
 					<div key={index} className="card border-dustyPink">
 						<SiteHead data={project} />
 						<SiteContent data={project} />
+						<Footer data={project} />
 					</div>
 				);
 			} else {
@@ -80,6 +95,7 @@ class Project extends Component {
 					<div key={index} className="card border-dustyPink">
 						<WorkHead data={project} />
 						<WorkContent data={project} />
+						<Footer data={project} />
 					</div>
 				);
 			}
