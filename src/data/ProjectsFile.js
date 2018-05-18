@@ -12,5 +12,5 @@ export const projects = [
     {type:'work',name: '104宜蘭縣Etag系統建置暨交控系統擴充計畫 （已改版）', img:'yilan.png', github: '', githubIo: '', skills:['Google Maps API', 'Bootstrap 3.3.7', 'Java 7', 'javascript', 'jQuery', 'HTML5', 'CSS3'], description: '手機版網頁開發'},
     {type:'work',name: '104桃園市易壅塞道路改善暨交通系統系統功能提升服務工作', img:'taoyuan.png', github: '', githubIo: '', skills:['Google Maps API', 'Bootstrap 3.3.7', 'Java 7', 'javascript', 'jQuery', 'HTML5', 'CSS3'], description: '動態地圖(Google Maps API）,協助桃園市交通資訊中心網站取得無障礙標章'},
     {type:'work',name: '104桃園市交通管制設施管理系統功能擴充建置服務工作', img:'taoyuan.png', github: '', githubIo: '', skills:['Google Maps API', 'Bootstrap 3.3.7', 'Java 7', 'javascript', 'jQuery', 'HTML5', 'CSS3'], description: '備品管理系統'},
-    {type:'site',name: 'My Github', img:'github.png', github: '', githubIo: '', skills:[], description: 'Check here to see more!'}
+    {type:'site',name: 'My Github', img:'github.png', github: 'https://github.com/jeserlin', githubIo: '', skills:['github'], description: 'Visit my Github!'}
 ];
