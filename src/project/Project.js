@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Image, Badge } from 'react-bootstrap';
 import './Project.css';
-
 // Icons
 import FaCode from 'react-icons/lib/fa/code';
 import FaGithub from 'react-icons/lib/fa/github';
@@ -14,7 +13,7 @@ class Project extends Component {
 			const data = props.data;
 			return (
 				<a href={data.githubIo}>
-					<Image src={window.location.origin + "/img/portfolio/" + data.img} responsive />
+					<Image src={require('../img/portfolio/' + data.img)} responsive />
 				</a>
 			);
 		}
@@ -45,7 +44,7 @@ class Project extends Component {
 			const data = props.data;
 			return (
 				<center className="pt1">
-					<Image className="width150" src={window.location.origin + "/img/portfolio/" + data.img} responsive />
+					<Image className="width150" src={require('../img/portfolio/' + data.img)} responsive />
 				</center>
 			);
 		}
