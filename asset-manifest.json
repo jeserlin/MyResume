@@ -1,12 +1,25 @@
 {
   "main.css": "static/css/main.5ba409b2.css",
   "main.css.map": "static/css/main.5ba409b2.css.map",
-  "main.js": "static/js/main.ae44fb69.js",
-  "main.js.map": "static/js/main.ae44fb69.js.map",
+  "main.js": "static/js/main.79c4900e.js",
+  "main.js.map": "static/js/main.79c4900e.js.map",
+  "static/media/github.png": "static/media/github.cba7e763.png",
   "static/media/glyphicons-halflings-regular.eot": "static/media/glyphicons-halflings-regular.f4769f9b.eot",
   "static/media/glyphicons-halflings-regular.svg": "static/media/glyphicons-halflings-regular.89889688.svg",
   "static/media/glyphicons-halflings-regular.ttf": "static/media/glyphicons-halflings-regular.e18bbf61.ttf",
   "static/media/glyphicons-halflings-regular.woff": "static/media/glyphicons-halflings-regular.fa277232.woff",
   "static/media/glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
-  "static/media/myPic.jpg": "static/media/myPic.6a63f011.jpg"
+  "static/media/green.png": "static/media/green.5d82e67c.png",
+  "static/media/motc.png": "static/media/motc.3762c4be.png",
+  "static/media/myFamilyTree.png": "static/media/myFamilyTree.baa70ed8.png",
+  "static/media/myPic.jpg": "static/media/myPic.6a63f011.jpg",
+  "static/media/sit.png": "static/media/sit.d69b4d07.png",
+  "static/media/swaziland.png": "static/media/swaziland.936ef008.png",
+  "static/media/t61.png": "static/media/t61.07cf562f.png",
+  "static/media/t9.png": "static/media/t9.6f9eb98f.png",
+  "static/media/taipei.png": "static/media/taipei.9c74ca93.png",
+  "static/media/taoyuan.png": "static/media/taoyuan.f3a9410f.png",
+  "static/media/tripHelper.png": "static/media/tripHelper.2c57d83d.png",
+  "static/media/yilan.png": "static/media/yilan.1e3f9074.png",
+  "static/media/youBike.png": "static/media/youBike.6159fc99.png"
 }
