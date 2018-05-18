@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Image, Badge } from 'react-bootstrap';
 import './Project.css';
+
 // Icons
 import FaCode from 'react-icons/lib/fa/code';
 import FaGithub from 'react-icons/lib/fa/github';

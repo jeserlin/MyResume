@@ -1,0 +1,13 @@
+.name {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.myInfo > div:not(.name) {
+	color: #6c757d !important;
+	font-size: 1.25em;
+}
+
+.myInfo > div > a {
+	color: #6c757d !important;
+}
